@@ -1,0 +1,68 @@
+/* Estilo futurista con colores neón */
+body {
+    background: linear-gradient(to right, #000428, #004e92);
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* Título futurista */
+h1 {
+    font-size: 32px;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+}
+
+/* Imagen de Rolo */
+.rolo-image {
+    width: 200px;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Animación cuando Rolo tiene hambre */
+.hungry {
+    transform: scale(0.8);
+    filter: brightness(0.8);
+}
+
+/* Animación de realidad virtual */
+.vr-mode {
+    filter: hue-rotate(200deg) brightness(1.5);
+    animation: glitch 0.2s infinite alternate;
+}
+
+/* Efecto de glitch */
+@keyframes glitch {
+    0% { transform: translateX(2px); }
+    100% { transform: translateX(-2px); }
+}
+
+/* Animación de juego (salto y giro) */
+.playing {
+    animation: jump-spin 1s ease-in-out;
+}
+
+@keyframes jump-spin {
+    0% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-50px) rotate(180deg); }
+    100% { transform: translateY(0) rotate(360deg); }
+}
+
+/* Brillo neón cuando está feliz */
+.happy {
+    box-shadow: 0 0 20px yellow;
+}
+
+/* Modo apagado cuando duerme */
+.sleeping {
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
