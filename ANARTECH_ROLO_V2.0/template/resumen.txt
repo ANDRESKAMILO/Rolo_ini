@@ -1,0 +1,56 @@
+# 📄 RESUMEN DEL PROYECTO: ANARTECH BALTA V2.0 🚀
+
+## Introducción  
+
+En un mundo cada vez más inmerso en la tecnología y la inteligencia artificial, **ANARTECH Balta V2.0** surge como una innovadora propuesta de interacción digital. Este proyecto combina **HTML, CSS y JavaScript** con animaciones avanzadas para ofrecer una experiencia envolvente donde Balta, un encantador **pug virtual**, responde a las acciones del usuario.  
+
+Inspirado en tecnologías emergentes y el uso de **realidad virtual** en el desarrollo web, **ANARTECH Balta V2.0** busca no solo entretener sino también servir como una plataforma educativa para programadores junior interesados en la creación de experiencias web interactivas.  
+
+---
+
+## 🎯 Objetivo Principal  
+
+Desarrollar una aplicación web interactiva con un diseño futurista donde **Balta, el pug negro arquitecto**, reaccione a distintas acciones del usuario mediante animaciones y cambios de estado.  
+
+---
+
+## 🔍 Desarrollo del Proyecto  
+
+Para la creación de este proyecto se utilizaron las siguientes tecnologías y herramientas:
+
+### 🏗️ **Estructura del Proyecto**  
+El proyecto está compuesto por tres archivos principales:  
+
+1. **`index.html`** – Define la estructura del sitio y los botones de interacción.  
+2. **`style.css`** – Aplica estilos visuales con un diseño futurista y animaciones de cambio de estado para Balta.  
+3. **`script.js`** – Gestiona la lógica de interacción y los cambios de estado de Balta.  
+
+### 🎨 **Diseño y Animaciones**  
+Se implementó una estética futurista inspirada en ciudades como **Singapur**, con colores vibrantes como **azul, verde, rojo y amarillo**. Además, se agregaron animaciones CSS para simular **cambios físicos en Balta** según su estado:  
+
+- **Cuando tiene hambre:** Se vuelve más delgado.  
+- **Modo realidad virtual:** Se activa un efecto digital tipo **ciberespacio**.  
+
+### 💾 **Diagrama del Proyecto**  
+El flujo de interacción y arquitectura del proyecto se visualizó mediante **Diagrams (Diagram as Code)**, generando una imagen (`arquitectura.png`) que documenta la relación entre sus componentes.  
+
+---
+
+## 📖 Referencias y Bibliografía  
+
+- AI4Devs - Recursos para desarrolladores con inteligencia artificial.  
+- ChatGPT - Generación de contenido basado en IA.  
+- Medium: Eric Elliott, *AI Programming for Absolute Beginners*, jun 11, 2023.  
+
+---
+
+## 📌 Conclusiones  
+
+El desarrollo de **ANARTECH Balta V2.0** permitió demostrar cómo la web puede ser utilizada para **crear experiencias interactivas** con animaciones y lógica de programación. Además, sirvió como un caso de estudio para la implementación de **interfaces dinámicas** y conceptos de **realidad virtual aplicada al diseño web**.  
+
+Agradecimientos a:  
+**AI4Devs, ChatGPT, Medium: Eric Elliott** y a todos los que colaboraron en la revisión y pruebas del proyecto.  
+
+🚀 **ANARTECH Balta V2.0** está listo para su presentación y futuras mejoras.  
+
+---
