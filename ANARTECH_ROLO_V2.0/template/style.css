@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(90deg, #000428, #004e92);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.balta-image {
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.balta-image:hover {
+    transform: scale(1.1);
+}
+
+.buttons button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background-color: #ffaa00;
+}
+
+/* Efectos de Modo VR */
+.vr-mode {
+    animation: glitch 0.2s infinite alternate;
+    filter: hue-rotate(200deg);
+}
+
+@keyframes glitch {
+    0% { transform: skew(-5deg); }
+    100% { transform: skew(5deg); }
+}
+
+/* Modo Arquitecto */
+.architect-mode {
+    filter: grayscale(80%);
+    border: 3px solid #ffcc00;
+    padding: 5px;
+}
